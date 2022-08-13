@@ -1,4 +1,4 @@
-#! usr/bin/bash
+#!usr/bin/bash
 
 sudo apt install nginx -y
 sudo apt install certbot python3-certbot-nginx -y
