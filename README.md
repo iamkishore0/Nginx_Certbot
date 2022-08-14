@@ -32,45 +32,6 @@ Go to https://www.noip.com/ and get a free DNS ![Screenshot 2022-08-14 at 09-42-
 ## Nginx Configuration & Reverse Proxy
    Delete the default file which is located at /etc/nginx/sites-enabled, execute the following command 'sudo rm -f /etc/nginx/sites-enabled/default'
    Create a new default file & paste the below script 'sudo vi /etc/nginx/sites-enables/default' and save the file
+   ![Screenshot from 2022-08-14 11-11-26](https://user-images.githubusercontent.com/98376417/184524153-b5c90c35-e872-477d-abf3-12dcaced40e3.png)
+
    
-   'server {
-
-	index index.html index.htm index.nginx-debian.html;
-    server_name jenkins.ddnsking.com; 
-
-
-	location / {
-    proxy_pass http://localhost:8082/;
-    proxy_http_version 1.1;
-    proxy_set_header Upgrade $http_upgrade;
-    proxy_set_header Connection 'upgrade';
-    proxy_set_header Host $host;
-    proxy_cache_bypass $http_upgrade;
-    
-}
-
-
-    listen [::]:443 ssl ipv6only=on; 
-    listen 443 ssl; # managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/jenkins.ddnsking.com/fullchain.pem; 
-    ssl_certificate_key /etc/letsencrypt/live/jenkins.ddnsking.com/privkey.pem; 
-    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
-    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
-
-}
-server {
-    if ($host = jenkins.ddnsking.com) {
-        return 301 https://$host$request_uri;
-    } 
-
-
-	listen 80 ;
-	listen [::]:80 ;
-    server_name jenkins.ddnsking.com;
-    return 404; 
-
-
-}'
-
-
-
