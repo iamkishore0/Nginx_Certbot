@@ -20,3 +20,7 @@ Go to https://www.noip.com/ and get a free DNS ![Screenshot 2022-08-14 at 09-42-
 
 
 ##  Restart nginx 'sudo service nginx restart' and paste your domain in web browser, It should give an below output![Screenshot 2022-08-14 at 10-05-45 Welcome to nginx!](https://user-images.githubusercontent.com/98376417/184522743-5a778997-1b1d-47c0-af24-85c6345a6553.png)
+
+## Run a service you like, I want to run sonatype nexus in Docker container https://github.com/iamkishore0/Devops_Tools_Setup/tree/main/Nexus   Service is available on port 8081
+
+![Screenshot from 2022-08-14 10-17-47](https://user-images.githubusercontent.com/98376417/184522941-cd19a09b-c598-42ff-87b8-bd331e076a21.png)
