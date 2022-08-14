@@ -26,4 +26,8 @@ Go to https://www.noip.com/ and get a free DNS ![Screenshot 2022-08-14 at 09-42-
 
 ![Screenshot from 2022-08-14 10-19-20](https://user-images.githubusercontent.com/98376417/184522963-fc681aed-a01c-498e-afb8-1026504834a2.png)
 
-## Let's make this service available on domain https://jenkins.ddnsking.com/ Which is nothing but Reverse Proxy
+## Let's make this service available on domain https://jenkins.ddnsking.com/ Which is nothing but Reverse Proxy 
+## execute 'sudo certbot --nginx --domain jenkins.ddnsking.com'![Screenshot from 2022-08-14 10-28-07](https://user-images.githubusercontent.com/98376417/184523206-9610d22c-5fa7-4023-b402-5a49238fe6a4.png)
+ 
+
+
