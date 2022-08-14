@@ -33,7 +33,7 @@ Go to https://www.noip.com/ and get a free DNS ![Screenshot 2022-08-14 at 09-42-
    Delete the default file which is located at /etc/nginx/sites-enabled, execute the following command 'sudo rm -f /etc/nginx/sites-enabled/default'
    Create a new default file & paste the below script 'sudo vi /etc/nginx/sites-enables/default' and save the file
    
-   server {
+   'server {
 
 	index index.html index.htm index.nginx-debian.html;
     server_name jenkins.ddnsking.com; 
@@ -70,7 +70,7 @@ server {
     return 404; 
 
 
-}
+}'
 
 
 
