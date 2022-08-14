@@ -26,4 +26,4 @@ Go to https://www.noip.com/ and get a free DNS ![Screenshot 2022-08-14 at 09-42-
 
 ![Screenshot from 2022-08-14 10-19-20](https://user-images.githubusercontent.com/98376417/184522963-fc681aed-a01c-498e-afb8-1026504834a2.png)
 
-## Let's make this service available on domain https://jenkins.ddnsking.com/
+## Let's make this service available on domain https://jenkins.ddnsking.com/ Which is nothing but Reverse Proxy
