@@ -32,7 +32,7 @@ Go to https://www.noip.com/ and get a free DNS ![Screenshot 2022-08-14 at 09-42-
  
 ## Nginx Configuration & Reverse Proxy
    Delete the default file which is located at /etc/nginx/sites-enabled, execute the following command 'sudo rm -f /etc/nginx/sites-enabled/default'
-   Create a new default file & paste the below script 'sudo vi /etc/nginx/sites-enables/default' and save the file
+   Create a new default file & paste the script in default 'sudo vi /etc/nginx/sites-enables/default' and save the file
    ![Screenshot from 2022-08-14 11-11-26](https://user-images.githubusercontent.com/98376417/184524153-b5c90c35-e872-477d-abf3-12dcaced40e3.png)
 
    
