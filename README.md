@@ -35,3 +35,8 @@ Go to https://www.noip.com/ and get a free DNS ![Screenshot 2022-08-14 at 09-42-
    ![Screenshot from 2022-08-14 11-11-26](https://user-images.githubusercontent.com/98376417/184524153-b5c90c35-e872-477d-abf3-12dcaced40e3.png)
 
    
+## Check Configuration & Restart Nginx
+   Execute 'sudo nginx -t' to check configuration is correct or not, It should give below output
+   ![Screenshot from 2022-08-14 11-16-22](https://user-images.githubusercontent.com/98376417/184524275-ddd548be-9c17-449d-9a2c-77ba0ac91957.png)
+   
+   Now restart nginx 'sudo nginx restart' & paste the domain url in web browser to access tomcat server
