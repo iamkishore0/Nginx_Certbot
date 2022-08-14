@@ -41,3 +41,9 @@ Go to https://www.noip.com/ and get a free DNS ![Screenshot 2022-08-14 at 09-42-
    ![Screenshot from 2022-08-14 11-16-22](https://user-images.githubusercontent.com/98376417/184524275-ddd548be-9c17-449d-9a2c-77ba0ac91957.png)
    
    Now restart nginx 'sudo nginx restart' & paste the domain url in web browser to access tomcat server
+   
+   ## Reuse the process & script
+      Reuse the above process and script for your project
+      For certificate creation 'sudo certbot --nginx --domain <your domain address>
+      For reverse proxy, make changes in port & domain name in default
+          also check certificates directories '/etc/letsencript' and make changes in default file
